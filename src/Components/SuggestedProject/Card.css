@@ -1,0 +1,149 @@
+.Alicecard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.time {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+
+  color: #79828b;
+}
+.alice {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #42505c;
+}
+.design {
+  background-color: #6271d223;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #8d99a4;
+  padding: 10px 20px;
+  margin-top: 5px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  flex-direction: row;
+  justify-content: center;
+}
+.paragraph {
+  padding-top: 25px;
+  margin: 0 auto;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #42505c;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+.Alicepara {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #42505c;
+}
+.nametime {
+  padding-top: 20px;
+  margin-left: 15px;
+  padding-right: 80px;
+}
+.profile {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.langoval {
+  padding-top: 20px;
+  padding-right: 17px;
+}
+.image-time {
+  display: flex;
+}
+.parttwo {
+  padding: 5px 25px 10px 20px;
+}
+.oneeth {
+  background-color: #6271d238;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #6271d2;
+  padding: 10px 20px;
+  margin-top: 5px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  flex-direction: row;
+  justify-content: center;
+}
+.zerobtc {
+  background-color: #d28f6236;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #d28e62;
+  padding: 10px 20px;
+  margin-top: 5px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  flex-direction: row;
+  justify-content: center;
+}
+.dollar {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: right;
+  margin-left: 80px;
+
+  color: #79828b;
+}
+
+.partthree {
+  display: flex;
+  justify-content: space-between;
+}
+.dollar-box {
+  padding-right: 15px;
+}
+.crypto-currency {
+  padding-bottom: 12px;
+}
+
+.cardone {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.card-line {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media (max-width: 991px) {
+  .card-one {
+    margin: 4px 0;
+  }
+}

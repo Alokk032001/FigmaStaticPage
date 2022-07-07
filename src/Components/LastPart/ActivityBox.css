@@ -1,0 +1,113 @@
+.recentbox {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.recent-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  color: #79828b;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.recent-profile1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.recent-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #42505c;
+  padding-left: 10px;
+}
+.recent-para {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #79828b;
+  padding-left: 10px;
+}
+.recent-ethereum {
+  background-color: #6271d238;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #6271d2;
+  padding: 10px 20px;
+  margin-top: 5px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  flex-direction: row;
+  white-space: nowrap;
+  text-align: center;
+  justify-content: center;
+  justify-content: center;
+}
+.recent-bitcoin {
+  background-color: #d28f6236;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #d28e62;
+  padding: 10px 20px;
+  margin-top: 5px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+  text-align: center;
+}
+.recent-crypto {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* padding-right: 10px; */
+}
+.recent-time {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #79828b;
+  margin-left: auto;
+}
+.recent-profile1-content {
+  padding-bottom: 5px;
+  margin-left: 20px;
+}
+.recent-profile1-align {
+  display: flex;
+  justify-content: flex-start;
+  width: 95%;
+  padding-bottom: 40px;
+}
+.recent-dollar {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #79828b;
+}

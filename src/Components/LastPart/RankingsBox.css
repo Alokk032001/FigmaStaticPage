@@ -1,0 +1,113 @@
+.rankings-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  color: #79828b;
+}
+.this-month {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #79828b;
+}
+.all-time {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #6271d2;
+  padding-left: 5px;
+}
+.rankings-box {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.rankings-line {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.rankings-right {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 30px;
+  padding-top: 20px;
+}
+.rankings-left {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+/* .this-month {
+  margin-left: 30px;
+} */
+.rank-p1-align {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+.rank-p2-align {
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 1px; */
+}
+.rank-p1-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #42505c;
+}
+.rank-p1-amount {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 1px;
+
+  color: #79828b;
+}
+.sn {
+  font-family: Aktiv Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #42505c;
+  padding-left: 15px;
+  padding-top: 8px;
+}
+.rank-p1 {
+  padding-left: 5px;
+}
+.rank-p1-content {
+  padding-left: 20px;
+}
+.rank-p1-amount {
+  padding-top: 3px;
+}
+hr {
+  padding-left: 20px;
+  border: 1px solid #e6ebf0;
+}

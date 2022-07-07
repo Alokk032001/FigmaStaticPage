@@ -1,0 +1,29 @@
+.suggest {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.sp {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+  color: #42505c;
+}
+
+.viewall {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+
+  text-align: right;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  color: #79828b;
+  padding-top: 8px;
+}

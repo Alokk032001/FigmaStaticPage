@@ -1,0 +1,153 @@
+.combine-navbar {
+  background: linear-gradient(201.71deg, #6a79dd -80.88%, #5866c3 203.65%);
+}
+/* .container-top {
+  background: linear-gradient(201.71deg, #6a79dd -80.88%, #5866c3 203.65%);
+} */
+
+.me-auto {
+  padding-left: 70px;
+  padding-bottom: 60px;
+  padding-top: 10px;
+}
+.active {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 15px;
+  /* identical to box height, or 83% */
+
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+  border-radius: 17px;
+}
+.nav-ele {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 15px;
+  /* identical to box height, or 83% */
+
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  /* opacity: 0.9; */
+}
+.drop-down {
+  padding-left: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: black;
+}
+.dash {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+  padding-left: 15px;
+}
+.element {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-left: 7px;
+}
+
+.alex {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 15px;
+  /* identical to box height, or 83% */
+
+  text-align: right;
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  padding-top: 5px;
+}
+.num-three {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  background: #4c5ebb;
+  border: 2px solid #6573d6;
+}
+.top-nav-right {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: 100px;
+}
+.top-nav-left {
+  margin-left: 70px;
+}
+.top-nav {
+  padding-top: 10px;
+}
+.bell-logo {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 580px) {
+  .dash,
+  .element,
+  .bell-logo {
+    display: none;
+  }
+  .combine-navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: none !important;
+    overflow-x: auto;
+    justify-content: flex-end;
+    width: 100%;
+    height: 120px;
+  }
+  .ham {
+    border: none;
+  }
+  .topnavbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-nav-left {
+    margin-left: 0px;
+  }
+  .top-nav-right {
+    margin-right: 8px;
+  }
+}

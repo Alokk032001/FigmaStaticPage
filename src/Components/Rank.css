@@ -1,0 +1,98 @@
+.about-rank {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.rank-top-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.partOne {
+  padding-left: 20px;
+}
+.partTwo {
+  padding-right: 20px;
+}
+.Rank {
+  color: #79828b;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 2px;
+  margin-bottom: 5px;
+}
+.symbol-nos {
+  padding-top: 8px;
+  display: flex;
+}
+.top {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #79828b;
+  padding-top: 12px;
+}
+.num {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 0px;
+  /* identical to box height */
+
+  letter-spacing: 0.75px;
+
+  color: #42505c;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+.topCategories {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  color: #79828b;
+  padding-top: 10px;
+}
+.ruby {
+  background-color: #6271d223;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #8d99a4;
+  padding: 10px 20px;
+  margin-top: 5px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  flex-direction: row;
+  justify-content: center;
+}
+.parttwo {
+  padding-top: 10px;
+  /* margin-top: 10px; */
+}
+.lang-oval {
+  padding-top: 20px;
+}
+.rank-line {
+  margin-bottom: 2px;
+  margin-left: 5%;
+  margin-right: 5%;
+}

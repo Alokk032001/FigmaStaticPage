@@ -1,0 +1,40 @@
+.activity {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.activity-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  letter-spacing: 0.25px;
+
+  /* color: #42505c; */
+}
+.activity-text {
+  float: left;
+  width: 48%;
+}
+.activity-viewall {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+
+  text-align: right;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  /* color: #79828b; */
+  padding-left: 160px;
+}
+.Rankings-Box {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
